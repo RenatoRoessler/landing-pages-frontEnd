@@ -1,14 +1,10 @@
 import * as Styled from './styles';
 import { Heading } from '../../components/Heading/index';
+import { mockBase } from '../Base/stories';
+import { Base } from '../Base';
 
 function Home() {
-  return (
-    <div className="App">
-      <Styled.Wrapper>
-        <Heading>o texto que eu quero</Heading>
-      </Styled.Wrapper>
-    </div>
-  );
+  return <Base {...mockBase} />;
 }
 
 export default Home;

@@ -86,11 +86,11 @@ exports[`<GridText /> should render with background 1`] = `
         >
           My grid
         </h1>
-        <p
+        <div
           class="c5 c6"
         >
           Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor.
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -102,11 +102,11 @@ exports[`<GridText /> should render with background 1`] = `
             >
               Teste 1
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Mussum Ipsum, cacilds vidis litro abertis.Admodum accumsan disputationi eu sit.Vide electram sadipscing et per.Per aumento de cachacis, eu reclamis.Paisis, filhis, espiritis santis.Cevadis im ampola pa arma uma pindureta.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -116,11 +116,11 @@ exports[`<GridText /> should render with background 1`] = `
             >
               Teste 2
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Mussum Ipsum, cacilds vidis litro abertis.Admodum accumsan disputationi eu sit.Vide electram sadipscing et per.Per aumento de cachacis, eu reclamis.Paisis, filhis, espiritis santis.Cevadis im ampola pa arma uma pindureta.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -130,11 +130,11 @@ exports[`<GridText /> should render with background 1`] = `
             >
               Teste 3
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Mussum Ipsum, cacilds vidis litro abertis.Admodum accumsan disputationi eu sit.Vide electram sadipscing et per.Per aumento de cachacis, eu reclamis.Paisis, filhis, espiritis santis.Cevadis im ampola pa arma uma pindureta.
-            </p>
+            </div>
           </div>
         </div>
       </div>
@@ -229,11 +229,11 @@ exports[`<GridText /> should render without background 1`] = `
         >
           My grid
         </h1>
-        <p
+        <div
           class="c5 c6"
         >
           Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor.
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -245,11 +245,11 @@ exports[`<GridText /> should render without background 1`] = `
             >
               Teste 1
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Mussum Ipsum, cacilds vidis litro abertis.Admodum accumsan disputationi eu sit.Vide electram sadipscing et per.Per aumento de cachacis, eu reclamis.Paisis, filhis, espiritis santis.Cevadis im ampola pa arma uma pindureta.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -259,11 +259,11 @@ exports[`<GridText /> should render without background 1`] = `
             >
               Teste 2
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Mussum Ipsum, cacilds vidis litro abertis.Admodum accumsan disputationi eu sit.Vide electram sadipscing et per.Per aumento de cachacis, eu reclamis.Paisis, filhis, espiritis santis.Cevadis im ampola pa arma uma pindureta.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -273,11 +273,11 @@ exports[`<GridText /> should render without background 1`] = `
             >
               Teste 3
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Mussum Ipsum, cacilds vidis litro abertis.Admodum accumsan disputationi eu sit.Vide electram sadipscing et per.Per aumento de cachacis, eu reclamis.Paisis, filhis, espiritis santis.Cevadis im ampola pa arma uma pindureta.
-            </p>
+            </div>
           </div>
         </div>
       </div>
