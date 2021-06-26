@@ -8,7 +8,7 @@ export const GridContent = ({ title, html, background }) => {
   return (
     <SectionBackground background={background}>
       <Styled.Container>
-        <Heading uppercase colorDark={!background}>
+        <Heading uppercase colorDark={!background} as="h2">
           {title}
         </Heading>
         <Styled.Html>
@@ -22,5 +22,5 @@ export const GridContent = ({ title, html, background }) => {
 GridContent.propTypes = {
   title: P.string.isRequired,
   html: P.string.isRequired,
-  background: P.bool.isRequired,
+  background: P.bool,
 };

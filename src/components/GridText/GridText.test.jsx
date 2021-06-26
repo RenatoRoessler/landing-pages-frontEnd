@@ -1,18 +1,18 @@
 import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
-import { GridContent } from '.';
+import { GridText } from '.';
 
 import mock from './mock';
 
-describe('<GridContent />', () => {
-  it('should render grid content', () => {
-    const { container } = renderTheme(<GridContent {...mock} />);
+describe('<GridText />', () => {
+  it('should render with background', () => {
+    const { container } = renderTheme(<GridText {...mock} />);
     expect(container).toMatchSnapshot();
   });
 
-  it('should render grid content', () => {
+  it('should render without background', () => {
     const { container } = renderTheme(
-      <GridContent {...mock} background={undefined} />,
+      <GridText {...mock} background={undefined} />,
     );
     expect(container).toMatchSnapshot();
   });
