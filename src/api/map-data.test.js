@@ -11,7 +11,7 @@ describe('map-data', () => {
   it('should map data if there are data', () => {
     const pagesData = mapData([
       {
-        footer_text: '<p>Hey</p>',
+        Footer_text: '<p>Hey</p>',
         slug: 'slug',
         title: 'title',
       },

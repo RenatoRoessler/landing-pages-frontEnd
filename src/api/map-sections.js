@@ -3,7 +3,7 @@ export const mapSections = (sections = []) => {
     if (section.__component === 'section.section-two-columns') {
       return mapSectionTwoColumns(section);
     }
-    if (section.__component === 'section.section-content') {
+    if (section.__component === 'section.sction-content') {
       return mapSectionContent(section);
     }
     if (section.__component === 'section.section-grid') {

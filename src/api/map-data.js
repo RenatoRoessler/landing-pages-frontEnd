@@ -4,7 +4,7 @@ import { mapSections } from './map-sections';
 export const mapData = (pagesData = [{}]) => {
   return pagesData.map((data) => {
     const {
-      footer_text: footerHtml = '',
+      Footer_text: footerHtml = '',
       slug = '',
       title = '',
       sections = [],

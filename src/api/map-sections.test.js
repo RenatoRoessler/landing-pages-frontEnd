@@ -89,7 +89,7 @@ describe('map-sections', () => {
 
   it('should map section content', () => {
     const data = mapSectionContent({
-      __component: 'section.section-content',
+      __component: 'section.sction-content',
       title: 'Pricing',
       content: 'abc',
       metadata: {
@@ -98,7 +98,7 @@ describe('map-sections', () => {
       },
     });
     expect(data.background).toBe(false);
-    expect(data.component).toBe('section.section-content');
+    expect(data.component).toBe('section.sction-content');
     expect(data.sectionId).toBe('pricing');
     expect(data.title).toBe('Pricing');
     expect(data.html).toBe('abc');
