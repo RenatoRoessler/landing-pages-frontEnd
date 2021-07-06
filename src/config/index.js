@@ -1,5 +1,5 @@
 export default {
-  url: 'http://localhost:1337/pages/?slug=',
+  url: 'https://strapi-landing-pages-project-r.herokuapp.com/pages/?slug=',
   siteName: 'Renato Roessler',
   defaultSlug: 'landing-page',
 };
